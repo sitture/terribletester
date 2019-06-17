@@ -4,7 +4,7 @@ current: about
 title: About
 navigation: true
 logo: 'assets/images/ghost.png'
-class: post-template
+class: page-template
 subclass: 'post page'
 ---
 

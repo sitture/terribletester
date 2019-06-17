@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 100
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /terribletester/
 
 # Website info
 title: The learnings of Terrible Testers | terribletester.com
@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://terribletester.com
-source_url: https://github.com/sitture/terribletester
+production_url: https://sitture.github.io/terribletester/
+source_url: https://github.com/sitture/terribletester/
 CNAME: #add cname for website to be created
 
 # Social info
@@ -74,8 +74,8 @@ repo: terribletester
 branch: master
 relative_source: ../terribletester
 destination: gh-pages
-production_url:  https://terribletester.com
-source_url:  https://github.com/sitture/terribletester
+production_url:  https://sitture.github.io/terribletester/
+source_url:  https://github.com/sitture/terribletester/
 
 exclude:
   - assets/css

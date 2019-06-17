@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 100
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /terribletester/
+baseurl: /
 
 # Website info
 title: The learnings of Terrible Testers | terribletester.com

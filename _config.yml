@@ -9,7 +9,7 @@ words_per_minute: 100
 baseurl: /
 
 # Website info
-title: The learnings of Terrible Testers | terribletester.com
+title: The learnings of a Terrible Tester | terribletester.com
 description: The learnings of a Terrible Tester.
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
@@ -24,8 +24,10 @@ navigation: False # show the navbar links
 subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: terribletester # replace by your username
-facebook: ghost # replace by your username
+twitter: mrhsheikh # replace by your username
+# facebook: ghost # replace by your username
+github: haroon-sheikh
+linkedin: https://www.linkedin.com/in/haroon-sheikh-00b08826
 
 # Disqus
 disqus: True

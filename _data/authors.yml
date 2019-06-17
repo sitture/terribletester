@@ -5,6 +5,6 @@ ghost:
   url: https://terribletester.com
   bio:
   picture: assets/images/ghost.png
-  #facebook: ghost
-  twitter: terribletester
+  # facebook: ghost
+  twitter: mrhsheikh
   cover: False

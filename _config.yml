@@ -17,7 +17,7 @@ logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://sitture.github.io/terribletester/
 source_url: https://github.com/sitture/terribletester/
-CNAME: #add cname for website to be created
+CNAME: terribletester.com
 
 # Social info
 navigation: False # show the navbar links

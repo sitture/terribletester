@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sitture/terribletester.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/terribletester)
 
-The source of [terribletester.com](http://terribletester.com) | Learnings of a Terrible Tester.
+The source of [terribletester.com](http://terribletester.com) | Learnings of a Terrible Tester
 
 ## Contributions
 

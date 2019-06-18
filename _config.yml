@@ -9,8 +9,8 @@ words_per_minute: 100
 baseurl: /
 
 # Website info
-title: The learnings of a Terrible Tester
-description: The learnings of a Terrible Tester.
+title: Learnings of a Terrible Tester
+description: Learnings of a Terrible Tester.
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png

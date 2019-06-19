@@ -3,7 +3,7 @@ layout: page
 current: about
 title: About me
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/terribletester.png'
 class: page-template
 subclass: 'post page'
 ---

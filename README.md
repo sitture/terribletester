@@ -1,4 +1,4 @@
-# terribletester
+# ![TerribleTester Logo](terribletester-logo.png)
 
 [![Build Status](https://travis-ci.org/sitture/terribletester.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/terribletester)
 

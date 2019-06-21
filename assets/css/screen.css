@@ -110,7 +110,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    background: color(var(--darkblue)) no-repeat center center;
     background-size: cover;
 }
 
@@ -1416,7 +1416,7 @@ Usage (In Ghost editor):
 .floating-header-logo a {
     display: flex;
     align-items: center;
-    color: var(--darkgrey);
+    color: var(--darkblue);
     line-height: 1.1em;
     font-weight: 700;
 }
@@ -1872,7 +1872,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: color(var(--darkgrey) l(-15%));
+    background: color(var(--darkblue));
 }
 
 .site-footer-content {

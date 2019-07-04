@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/tag/getting-started/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/tag/docs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-06-21T13:48:25+00:00</updated>
-  <id>/tag/getting-started/feed.xml</id>
+  <updated>2019-07-04T19:43:07+00:00</updated>
+  <id>/tag/docs/feed.xml</id>
 
   
   
@@ -41,7 +41,7 @@
 
 &lt;p&gt;We know that first impressions are important, so we’ve populated your new site with some initial &lt;strong&gt;Getting Started&lt;/strong&gt; posts that will help you get familiar with everything in no time. This is the first one!&lt;/p&gt;
 
-&lt;h3 id=&quot;there-are-a-few-things-that-you-should-know-up-front&quot;&gt;There are a few things that you should know up-front:&lt;/h3&gt;
+&lt;h3 id=&quot;there-are-a-few-things-that-you-should-know-up-front&quot;&gt;There are a few things that you should know up-front&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That’s who it works best for. If you’re using Ghost for some other purpose, that’s fine too - but it might not be the best choice for you.&lt;/li&gt;
@@ -70,7 +70,7 @@
       
 
       
-        <category term="Getting started" />
+        <category term="Docs" />
       
 
       

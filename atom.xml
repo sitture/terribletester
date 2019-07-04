@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Using Golang TimeTicker for a set duration</title>
+        
+          <description>&lt;p&gt;Problem: As part of me learning and experienting with golang and working on a small &lt;a href=&quot;https://github.com/sitture/gauge-reportserver&quot;&gt;gauge-reportserver&lt;/a&gt; plugin, I stumbled across a problem where I had to repeat a task for a certain period.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 04 Jul 2019 10:00:00 +0000</pubDate>
+        <link>
+        /using-golang-timeticker-for-a-set-duration</link>
+        <guid isPermaLink="true">/using-golang-timeticker-for-a-set-duration</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Welcome to Ghost</title>
         
           <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;

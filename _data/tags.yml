@@ -2,3 +2,13 @@ getting-started:
   name: getting-started
   description: False
   cover: False
+
+docs:
+  name: docs
+  description: False
+  cover: False
+
+guide:
+  name: guide
+  description: False
+  cover: False

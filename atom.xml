@@ -8,7 +8,7 @@
     
       
       <item>
-        <title>Gradle - Including all sub-modules under a directory</title>
+        <title>Including all sub-modules under a directory</title>
         
           <description>&lt;p&gt;There are multiple ways to add sub-modules and it’s submodules within the parent &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.gradle&lt;/code&gt;.&lt;/p&gt;
 
@@ -16,8 +16,8 @@
         
         <pubDate>Wed, 10 Jul 2019 10:00:00 +0000</pubDate>
         <link>
-        /gradle-including-all-submodules-under-a-directory</link>
-        <guid isPermaLink="true">/gradle-including-all-submodules-under-a-directory</guid>
+        /including-all-submodules-under-a-directory</link>
+        <guid isPermaLink="true">/including-all-submodules-under-a-directory</guid>
       </item>
       
     

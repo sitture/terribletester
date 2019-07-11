@@ -43,7 +43,7 @@ The above works when you're not going to be adding or removing these submodules.
 include "submodule"
 new File("$rootDir/submodule").listFiles().each {
   def moduleName = it.name
-  include projectName
+  include moduleName
   project(":${moduleName}").projectDir = file("${it.getParentFile().name}/${moduleName}")
 }
 ```

@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/gradle-including-submodules.jpg
 navigation: True
-title: Gradle - Including all sub-modules under a directory
+title: Including all sub-modules under a directory
 date: 2019-07-10 10:00:00
 tags: [guide]
 class: post-template
@@ -25,10 +25,10 @@ myproject/
 ├── gradle.properties
 ├── gradlew
 ├── gradlew.bat
-└── build.gradle
+└── settings.gradle
 ```
 
-You can either add the following explicitly to `settings.gradle` to include all modules:
+You can either add the following explicitly to `settings.gradle` to include all modules one by one:
 
 ```groovy
 include "submodule"

@@ -205,7 +205,7 @@ into the {body} of the default.hbs template -->
 <span class="n">include</span> <span class="s2">"submodule"</span>
 <span class="k">new</span> <span class="nf">File</span><span class="o">(</span><span class="s2">"$rootDir/submodule"</span><span class="o">).</span><span class="na">listFiles</span><span class="o">().</span><span class="na">each</span> <span class="o">{</span>
   <span class="kt">def</span> <span class="n">moduleName</span> <span class="o">=</span> <span class="n">it</span><span class="o">.</span><span class="na">name</span>
-  <span class="n">include</span> <span class="n">projectName</span>
+  <span class="n">include</span> <span class="n">moduleName</span>
   <span class="nf">project</span><span class="o">(</span><span class="s2">":${moduleName}"</span><span class="o">).</span><span class="na">projectDir</span> <span class="o">=</span> <span class="n">file</span><span class="o">(</span><span class="s2">"${it.getParentFile().name}/${moduleName}"</span><span class="o">)</span>
 <span class="o">}</span>
 </code></pre></div></div>

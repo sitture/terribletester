@@ -11,11 +11,11 @@ subclass: 'post tag-guide'
 author: haroon
 ---
 
-As a cucumber-jvm user, I've always felt the need for a `@BeforeAll` and `AfterAll` hooks. Although, cucumber still does not have a support this, there're many ways to workaround and achieve a solution.
+As a cucumber-jvm user, I've always felt the need for a `@BeforeAll` and `@AfterAll` hooks. Although, cucumber still does not have a support this yet, there're many ways to workaround and achieve a solution.
 
-There's 5+ years old issue opened with cucumber `https://github.com/cucumber/cucumber-jvm/issues/515`, you can follow this thread for other workarounds mentioned.
+There's a 5+ years old issue opened with cucumber `https://github.com/cucumber/cucumber-jvm/issues/515`, you can follow this thread for other workarounds mentioned.
 
-One easiest and most optimal way how it could be done is by implementation a `CucumberHooks` base class which can then be used a plugin with your cucumber `@RunWith` class.
+One easiest and most optimal way how it could be done is by implementing a `CucumberHooks` base class which can then be used a cucumber plugin within your cucumber `@RunWith` class.
 
 ### Dependencies
 

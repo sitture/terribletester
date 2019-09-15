@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>BeforeAll and AfterAll workaround for cucumber-java</title>
+        
+          <description>&lt;p&gt;As a cucumber-jvm user, I’ve always felt the need for a &lt;code class=&quot;highlighter-rouge&quot;&gt;@BeforeAll&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;AfterAll&lt;/code&gt; hooks. Although, cucumber still does not have a support this, there’re many ways to workaround and achieve a solution.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 15 Sep 2019 09:00:00 +0000</pubDate>
+        <link>
+        /beforeall-and-afterall-workaround-for-cucumber-java</link>
+        <guid isPermaLink="true">/beforeall-and-afterall-workaround-for-cucumber-java</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Including all sub-modules under a directory</title>
         
           <description>&lt;p&gt;There are multiple ways to add sub-modules and it’s submodules within the parent &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.gradle&lt;/code&gt;.&lt;/p&gt;
@@ -33,21 +48,6 @@
         <link>
         /using-golang-timeticker-for-a-set-duration</link>
         <guid isPermaLink="true">/using-golang-timeticker-for-a-set-duration</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Welcome to Ghost</title>
-        
-          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 27 Jul 2017 10:00:00 +0000</pubDate>
-        <link>
-        /welcome</link>
-        <guid isPermaLink="true">/welcome</guid>
       </item>
       
     

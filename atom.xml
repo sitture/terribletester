@@ -10,7 +10,7 @@
       <item>
         <title>BeforeAll and AfterAll workaround for cucumber-java</title>
         
-          <description>&lt;p&gt;As a cucumber-jvm user, I’ve always felt the need for a &lt;code class=&quot;highlighter-rouge&quot;&gt;@BeforeAll&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;AfterAll&lt;/code&gt; hooks. Although, cucumber still does not have a support this, there’re many ways to workaround and achieve a solution.&lt;/p&gt;
+          <description>&lt;p&gt;As a cucumber-jvm user, I’ve always felt the need for a &lt;code class=&quot;highlighter-rouge&quot;&gt;@BeforeAll&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;@AfterAll&lt;/code&gt; hooks. Although, cucumber still does not have a support this yet, there’re many ways to workaround and achieve a solution.&lt;/p&gt;
 
 </description>
         

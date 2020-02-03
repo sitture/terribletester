@@ -2,9 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sitture/terribletester.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/terribletester)
 
-The source of [terribletester.com](http://terribletester.com) | Learnings of a Terrible Tester
-
-Using the [holo-alfa](https://github.com/stijnvc/holo-alfa) theme with customisations:
+The source of [terribletester.com](http://terribletester.com) | Learnings of a Terrible Tester. Credits to [holo-alfa](https://github.com/stijnvc/holo-alfa) theme with custom additions.
 
 ### Features
 

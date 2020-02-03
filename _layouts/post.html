@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-
 {% assign minutes = content | number_of_words | divided_by: 180 %}
 {% if minutes == 0 %}
   {% assign read-time = site.var_less_than_a_minute_read %}
 {% else %}
   {% assign read-time = minutes | append: "&nbsp;" | append: site.var_min_read %}
 {% endif %}
-
 <article>
   <span class="meta">{{ page.date | date: site.date_format }} • {{ read-time }}</span>
 	<h1>{{ page.title }}</h1>

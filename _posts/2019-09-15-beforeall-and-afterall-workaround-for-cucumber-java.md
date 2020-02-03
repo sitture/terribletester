@@ -1,6 +1,5 @@
 ---
 title: BeforeAll and AfterAll workaround for cucumber-java
-summary: One easiest and most optimal way how it could be done is by implementing a `CucumberHooks` base class which can then be used a cucumber plugin within your cucumber `@RunWith` class.
 ---
 
 As a cucumber-jvm user, I've always felt the need for a `@BeforeAll` and `@AfterAll` hooks. Although, cucumber still does not have a support for this yet, there're many ways to workaround.

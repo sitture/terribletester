@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: about me
 ---
 
 A computer science graduate from University of Leeds.  I've been working as a Test Engineer after graduating in 2012 and currently a Software Test Engineer at [Sky@LeedsDock](https://www.leedsdock.com/whos-here/sky/) for almost 5 years.  

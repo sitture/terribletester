@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width">
 <title>{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }} | {{ site.description.meta }}{% endif %}</title>
-<meta name="description" content="{% if page.summary %}{{ page.summary }} | {% endif %}{{ site.description.meta }}">
+<meta name="description" content="{% if page.summary %}{{ page.summary }}{% elsif page.title %}{{ page.title }} | {% endif %}{{ site.description.meta }}">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
 <!-- icons -->
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">

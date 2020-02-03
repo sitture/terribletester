@@ -6,7 +6,7 @@ The source of [terribletester.com](http://terribletester.com) | Learnings of a T
 
 Using the [holo-alfa](https://github.com/stijnvc/holo-alfa) theme with customisations:
 
-## Features:
+### Features
 
 * Html compression using http://jch.penibelst.de/
 

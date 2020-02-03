@@ -4,6 +4,12 @@
 
 The source of [terribletester.com](http://terribletester.com) | Learnings of a Terrible Tester
 
+Using the [holo-alfa](https://github.com/stijnvc/holo-alfa) theme with customisations:
+
+## Features:
+
+* Html compression using http://jch.penibelst.de/
+
 ## Running Locally
 
 Run the following command to spin the blog locally at `http://localhost:4000`.
@@ -29,7 +35,7 @@ For example, the following are examples of valid post filenames:
 
 ## Compiling Styles
 
-The styles are compiled using `Gulp/PostCSS` to polyfill future CSS spec. You'll need Node and Gulp installed globally. 
+The styles are compiled using `Gulp/PostCSS` to polyfill future CSS spec. You'll need Node and Gulp installed globally.
 
 Edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
 

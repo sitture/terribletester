@@ -1,14 +1,6 @@
 ---
-layout: post
-current: post
-cover:  assets/images/gradle-including-submodules.jpg
-navigation: True
 title: Including all sub-modules under a directory
-date: 2019-07-10 10:00:00
-tags: [guide]
-class: post-template
-subclass: 'post tag-guide'
-author: haroon
+summary: There are multiple ways to add sub-modules and it's submodules within the parent settings.gradle.
 ---
 
 There are multiple ways to add sub-modules and it's submodules within the parent `settings.gradle`.

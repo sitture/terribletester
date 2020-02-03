@@ -1,21 +1,15 @@
 ---
-layout: post
-current: post
-cover:  assets/images/using-golang-ticker.jpg
-navigation: True
 title: Using Golang TimeTicker for a set duration
-date: 2019-07-04 10:00:00
-tags: [guide]
-class: post-template
-subclass: 'post tag-guide'
-author: haroon
---- 
+summary: Using Golang TimeTicker for a set duration
+---
 
-Problem: As part of me learning and experienting with golang and working on a small [gauge-reportserver](https://github.com/sitture/gauge-reportserver) plugin, I stumbled across a problem where I had to repeat a task for a certain period.
+Problem: As part of me learning and experimenting with golang and working on a small [gauge-reportserver](https://github.com/sitture/gauge-reportserver) plugin, I stumbled across a problem where I had to repeat a task for a certain period.
+
+<!--more-->
 
 Solution:
 
-1. Create a `time.Ticker` so that it can hold a channel that ticks at set intervals. 
+1. Create a `time.Ticker` so that it can hold a channel that ticks at set intervals.
 2. Use a `time.Timer` to stop the ticker after a set period of time.
 
 [Timers](https://gobyexample.com/timers) and [Tickers](https://gobyexample.com/tickers) let you execute code in the future, once or repeatedly.
@@ -56,7 +50,7 @@ for {
 
 However, running the above would still tick forever because a `select` blocks until one of it's cases is ready and then it executes the case but `time.After(10 * time.Second)` was never getting a chance to be ready due to interval being shorter, that would only work if that was less than 5 seconds.
 
-This can be resolved by by having `timer` declared before starting the `for` loop. 
+This can be resolved by by having `timer` declared before starting the `for` loop.
 
 The final solution looks like this where a `ticker` is created that ticks every `500 milliseconds` and `timer` added to stop the ticker after `10 seconds` have elapsed.
 

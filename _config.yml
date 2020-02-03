@@ -3,23 +3,22 @@ markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
 language: 'en-uk'
+# language attribute in <html> element.
+lang: en
 words_per_minute: 100
-
 
 title: terribletester
 description:
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/stijnvc/holo-alfa">&lt;/&gt; on Github</a>.
+  meta: Learnings of a Terrible Tester.
+  subtitle: Learnings of a Terrible Tester. <a href="https://github.com/sitture">&lt;/&gt; on Github</a>.
 author:
-  name: Haroon
+  name: Haroon Sheikh
   email: haroon_sheikh@hotmail.co.uk
   # Optional text (html) to display after author name. Leave empty if you don't want it.
-  info:
+  info: (@<a href="https://twitter.com/mrhsheikh">mrhsheikh</a>)
 
+url: https://terribletester.com
 baseurl: ""
-
-# language attribute in <html> element.
-lang: en
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
@@ -84,7 +83,7 @@ disqus-shortname:
 
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
-twitter:
+twitter: https://twitter.com/mrhsheikh
 youtube:
 instagram:
 tumblr:
@@ -135,7 +134,7 @@ highlighter: rouge
 kramdown:
   input: GFM
 paginate_path: "/page-:num/"
-permalink: pretty
+permalink: /:short_year/:month/:title
 defaults:
   -
     scope:

@@ -3,8 +3,8 @@
 	<channel>
 		<title>terribletester</title>
 		<description>{&quot;meta&quot;=&gt;&quot;Learnings of a Terrible Tester.&quot;, &quot;subtitle&quot;=&gt;&quot;Learnings of a Terrible Tester. &lt;a href=\&quot;https://github.com/sitture\&quot;&gt;&amp;lt;/&amp;gt; on Github&lt;/a&gt;.&quot;}</description>
-		<link>https://terribletester.com</link>
-		<atom:link href="https://terribletester.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://sitture.github.io/terribletester</link>
+		<atom:link href="https://sitture.github.io/terribletester/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>BeforeAll and AfterAll workaround for cucumber-java</title>
@@ -19,8 +19,8 @@
 </description>
 				
 				<pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
-				<link>https://terribletester.com/19/09/beforeall-and-afterall-workaround-for-cucumber-java</link>
-				<guid isPermaLink="true">https://terribletester.com/19/09/beforeall-and-afterall-workaround-for-cucumber-java</guid>
+				<link>https://sitture.github.io/terribletester/19/09/beforeall-and-afterall-workaround-for-cucumber-java</link>
+				<guid isPermaLink="true">https://sitture.github.io/terribletester/19/09/beforeall-and-afterall-workaround-for-cucumber-java</guid>
 			</item>
 		
 			<item>
@@ -69,8 +69,8 @@
 </description>
 				
 				<pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
-				<link>https://terribletester.com/19/07/including-all-submodules-under-a-directory</link>
-				<guid isPermaLink="true">https://terribletester.com/19/07/including-all-submodules-under-a-directory</guid>
+				<link>https://sitture.github.io/terribletester/19/07/including-all-submodules-under-a-directory</link>
+				<guid isPermaLink="true">https://sitture.github.io/terribletester/19/07/including-all-submodules-under-a-directory</guid>
 			</item>
 		
 			<item>
@@ -86,8 +86,8 @@
 </description>
 				
 				<pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
-				<link>https://terribletester.com/19/07/using-golang-timeticker-for-a-set-duration</link>
-				<guid isPermaLink="true">https://terribletester.com/19/07/using-golang-timeticker-for-a-set-duration</guid>
+				<link>https://sitture.github.io/terribletester/19/07/using-golang-timeticker-for-a-set-duration</link>
+				<guid isPermaLink="true">https://sitture.github.io/terribletester/19/07/using-golang-timeticker-for-a-set-duration</guid>
 			</item>
 		
 	</channel>

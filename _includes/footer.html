@@ -1,5 +1,12 @@
 <footer>
   <div class="inner">
-    <p>{{ site.footer-text }}</p>
+    <p>{{ site.footer-text }} © {{ 'now' | date: "%Y" }}
+    {% if site.display-social-icons %}
+      {% if site.show-subtitle and site.display-social-icons %}
+      <br>
+      {% endif %}
+      {% include social_icons.html %}
+    {% endif %}
+    </p>
   </div>
 </footer>

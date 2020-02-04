@@ -20,6 +20,7 @@ language: 'en-uk'
 # language attribute in <html> element.
 lang: en
 words_per_minute: 100
+CNAME: terribletester.com
 
 title: terribletester
 description:

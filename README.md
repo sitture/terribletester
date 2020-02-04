@@ -7,6 +7,9 @@ The source of [terribletester.com](http://terribletester.com) | Learnings of a T
 ### Features
 
 * Html compression using http://jch.penibelst.de/
+* Google Analytics
+* Social Share buttons below post title
+* Fixes double slashes when baseurl is `/`
 
 ## Running Locally
 

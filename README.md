@@ -13,6 +13,7 @@ The source of [terribletester.com](http://terribletester.com) | Learnings of a T
 Run the following command to spin the blog locally at `http://localhost:4000`.
 
 ```bash
+bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 

@@ -23,8 +23,8 @@
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+				<link>{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
 	</channel>

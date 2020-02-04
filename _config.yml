@@ -138,6 +138,9 @@ var_your_email: Your email
 var_your_message: Your message
 
 
+# Google Analytics
+google_analytics: UA-142314788-1
+
 # Settings for deploy rake task
 # Username and repo of Github repo, e.g.
 # https://github.com/USERNAME/REPO.git

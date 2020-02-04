@@ -2,7 +2,11 @@
 
 [![Build Status](https://travis-ci.org/sitture/terribletester.svg?branch=master&style=flat-square)](https://travis-ci.org/sitture/terribletester)
 
-The source of [terribletester.com](http://terribletester.com) | Learnings of a Terrible Tester
+The source of [terribletester.com](http://terribletester.com) | Learnings of a Terrible Tester. Credits to [holo-alfa](https://github.com/stijnvc/holo-alfa) theme with custom additions.
+
+### Features
+
+* Html compression using http://jch.penibelst.de/
 
 ## Running Locally
 
@@ -29,7 +33,7 @@ For example, the following are examples of valid post filenames:
 
 ## Compiling Styles
 
-The styles are compiled using `Gulp/PostCSS` to polyfill future CSS spec. You'll need Node and Gulp installed globally. 
+The styles are compiled using `Gulp/PostCSS` to polyfill future CSS spec. You'll need Node and Gulp installed globally.
 
 Edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
 

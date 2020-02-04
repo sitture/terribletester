@@ -1,98 +1,137 @@
 # Jekyll configuration
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: rouge
+exclude: [vendor]
+highlighter: rouge
+paginate_path: "/page-:num/"
+permalink: /:short_year/:month/:title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      excerpt_separator: "<!--more-->"
 paginate: 100 # it will paginate after this number
 language: 'en-uk'
+# language attribute in <html> element.
+lang: en
 words_per_minute: 100
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+title: terribletester
+description:
+  meta: Learnings of a Terrible Tester.
+  subtitle: Learnings of a Terrible Tester. <a href="https://github.com/sitture">&lt;/&gt; on Github</a>.
+author:
+  name: Haroon Sheikh
+  email: haroon_sheikh@hotmail.co.uk
+  # Optional text (html) to display after author name. Leave empty if you don't want it.
+  info: (@<a href="https://twitter.com/mrhsheikh">mrhsheikh</a>)
 
-# Website info
-title: Learnings of a Terrible Tester
-description: Learnings of a Terrible Tester
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-production_url: https://terribletester.com/
-source_url: https://github.com/sitture/terribletester/
-CNAME: terribletester.com
+url: https://terribletester.com
+baseurl: ""
 
-# Social info
-navigation: False # show the navbar links
-subscribers: False # you need to connect an external service for this to work,
-# if 'True' the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter: mrhsheikh # replace by your username
-# facebook: ghost # replace by your username
-github: haroon-sheikh
-linkedin: https://www.linkedin.com/in/haroon-sheikh-00b08826
+# FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
-# Disqus
-disqus: True
-disqus_shortname: terribletester # replace with your disqus username
+##############
+# APPEREANCE #
+##############
 
-# Google Analytics
-google_analytics: UA-142314788-1
+# If you want to show the subtitle anywhere else than the front page, use
+# {% include subtitle.html %} to include it anywhere you want.
+show-subtitle: true
+display-social-icons: true
+# If you want social links to open in a new tab, set this as true
+social-icons-open-newtab: true
 
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
+footer-text: Learning of a Terrible Tester
 
-# Authors' info in `_data/authors.yml`
-# Tags' info in `_data/tags_info.yml`
+# Preferably 64px in height. Leave empty = disable.
+logo-image: # /terribletester-lon.png
 
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
+# Toolbar color for Chrome on Android.
+theme-color-attr: "#00f0ff"
 
-feed:
-  path: feed.xml
+# Color of Microsoft live Tile.
+ms-tile-color: "#00f0ff"
 
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author's page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post's page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
+# Color used throughout the theme. Format: R, G, B.
+theme-color: 0, 240, 255 # Original: 0, 240, 255
 
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
+# Text color used throughout the theme. Format: R, G, B.
+text-color: 0, 0, 0 # Original: 0, 0, 0
 
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-safe: False
-lsi: False
-username: sitture
-repo: terribletester
-branch: master
-relative_source: ../terribletester
-destination: gh-pages
-production_url:  https://terribletester.com/
-source_url:  https://github.com/sitture/terribletester/
+# Background color used throughout the theme. Format: R, G, B.
+# Note: if you change the background color AND you use cover images, you should
+#       also change the CSS gradient in "_includes\gradient.css" to match the
+#       background color. Edit and copy it from here:
+#       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
+background-color: 255, 255, 255 # Original: 255, 255, 255
 
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - "*.Rmd"
-  - .git*
+display-author-post-page: true
+display-author-front-page: true
+
+# http://alanwsmith.com/jekyll-liquid-date-formatting-examples
+date_format: "%b %-d, %Y"
+
+# Minimal screen-width after which the navigation will change position from
+# vertical to horizontal.
+nav-breaking-point: 520px
+
+# Number of posts on each page.
+paginate: 3
+
+# Display links for the previous and next post on post pages.
+display-next-prev-post: false
+
+# Leave empty if you don't want comments on post pages.
+disqus-shortname:
+
+
+################
+# SOCIAL ICONS #
+################
+
+# Use a complete url here, including http:// and such. Requiring just usernames
+# has been considered, but this is way more customizable.
+twitter: https://twitter.com/mrhsheikh
+youtube:
+instagram:
+tumblr:
+facebook:
+google-plus:
+reddit:
+soundcloud:
+medium:
+linkedin:
+github: https://github.com/haroon-sheikh
+behance:
+codepen:
+dribbble:
+trello:
+stack-overflow:
+bitcoin:
+paypal:
+
+
+#####################
+# CUSTOMIZABLE TEXT #
+#####################
+
+# Useful for translating into other languages.
+
+var_on_the_web: On the web
+var_read: Read # Text after each post summary on the homepage.
+var_newer: Newer
+var_older: Older
+var_next_post: Next post
+var_previous_post: Previous post
+var_less_than_a_minute_read: Less than a minute read
+var_min_read: min read # Text after reading time. Example: 5 min read.
+var_post_by: Post by
+var_guest_post_by: Guest post by
+var_your_email: Your email
+var_your_message: Your message

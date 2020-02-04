@@ -1,0 +1,14 @@
+<div class="subtitle">
+  <p>
+  {% if site.show-subtitle %}
+    {{ site.description.subtitle }}
+  {% endif %}
+  {% if site.display-social-icons %}
+    {% if site.show-subtitle and site.display-social-icons %}
+    <br>
+    {% endif %}
+    {{ site.var_on_the_web }}:&nbsp;
+    {% include social_icons.html %}
+  {% endif %}
+  </p>
+</div>

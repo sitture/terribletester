@@ -1,39 +1,41 @@
 ---
 layout: default
-current: home
-class: 'home-template'
-navigation: True
+home: true
 ---
 
-<!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
+{% for post in paginator.posts %}
 
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                {% if site.logo %}
-                    <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
-                {% else %}
-                    {{ site.title }}
-                {% endif %}
-            </h1>
-            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
-        </div>
-        {% include site-nav.html %}
-    </div>
-</header>
+{% assign minutes = post.content | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+  {% assign read-time = site.var_less_than_a_minute_read %}
+{% else %}
+  {% assign read-time = minutes | append: "&nbsp;" | append: site.var_min_read %}
+{% endif %}
 
-<!-- The main content area -->
-<main id="site-main" class="site-main outer" role="main">
-    <div class="inner">
+  <article>
+    <span class="meta">
+      {% if site.display-author-front-page %}
+        {% if post.author.name %}
+          {{ post.author.name }} •
+        {% else %}
+          {% if site.author.name %}
+            {{ site.author.name }} •
+          {% endif %}
+        {% endif %}
+      {% endif %}
+      {{ post.date | date: site.date_format }} • {{ read-time }}</span>
+  	<a href="{{ post.url | relative_url }}"><h1>{{ post.title }}</h1></a>
+      <p>
+      {% if post.summary %}
+        {{ post.summary }}&nbsp;<a class="read-more" href="{{ post.url | relative_url }}">{{ site.var_read }}  →</a>
+      {% else %}
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a class="read-more" href="{{ post.url | relative_url }}">{{ site.var_read }}  →</a>
+      {% endif %}
+      </p>
 
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {%  include post-card.html %}
-        </div>
+  </article>
+{% endfor %}
 
-    </div>
-</main>
+{% if paginator.previous_page or paginator.next_page %}
+  {% include pagination.html %}
+{% endif %}

@@ -36,7 +36,7 @@ social-icons-open-newtab: true
 footer-text: This is the footer.<br><a href="http://stijnvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://stijnvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
-logo-image: # /img/logo.png
+logo-image: # /terribletester-lon.png
 
 # Toolbar color for Chrome on Android.
 theme-color-attr: "#00f0ff"

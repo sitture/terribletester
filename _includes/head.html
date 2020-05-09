@@ -16,7 +16,7 @@
 
 <!-- og tags -->
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{% if page.title %}{{ page.title }} • {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:locale" content="{{ site.lang }}">
 {% if page.og-image %}
   <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/{{ page.og-image }}">
@@ -29,12 +29,7 @@
 {% endif %}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}{{ page.url }}">
-<meta property="og:description" content="
-{% if page.summary %}
-{{ page.summary }}
-{% else %}
-{{ site.description.meta }}
-{% endif %}">
+<meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% elsif page.title %}{{}}{{ site.description.meta }}{% endif %}">
 <!-- /og tags -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

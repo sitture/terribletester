@@ -7,6 +7,25 @@
 		<atom:link href="https://terribletester.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Version control dotfiles using a git bare repository</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Haroon Sheikh&quot;, &quot;email&quot;=&gt;&quot;haroon_sheikh@hotmail.co.uk&quot;, &quot;info&quot;=&gt;&quot;(@&lt;a href=\&quot;https://twitter.com/mrhsheikh\&quot;&gt;mrhsheikh&lt;/a&gt;)&quot;}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;I keep all of my dotfiles versioned controlled using a git bare repository. There are loads of alternate solutions out there helping you to store your dotfiles under some sort of source control.&lt;/p&gt;
+
+&lt;p&gt;I have found this method the most useful in terms of keeping your dotfiles up-to-date with source control with minimal number of steps to be performed.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+				<link>https://terribletester.com/version-control-dotfiles-using-a-gitbare-repostory</link>
+				<guid isPermaLink="true">https://terribletester.com/version-control-dotfiles-using-a-gitbare-repostory</guid>
+			</item>
+		
+			<item>
 				<title>BeforeAll and AfterAll workaround for cucumber-java</title>
 				
 					
@@ -19,8 +38,8 @@
 </description>
 				
 				<pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
-				<link>https://terribletester.com/19/09/beforeall-and-afterall-workaround-for-cucumber-java</link>
-				<guid isPermaLink="true">https://terribletester.com/19/09/beforeall-and-afterall-workaround-for-cucumber-java</guid>
+				<link>https://terribletester.com/beforeall-and-afterall-workaround-for-cucumber-java</link>
+				<guid isPermaLink="true">https://terribletester.com/beforeall-and-afterall-workaround-for-cucumber-java</guid>
 			</item>
 		
 			<item>
@@ -69,8 +88,8 @@
 </description>
 				
 				<pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
-				<link>https://terribletester.com/19/07/including-all-submodules-under-a-directory</link>
-				<guid isPermaLink="true">https://terribletester.com/19/07/including-all-submodules-under-a-directory</guid>
+				<link>https://terribletester.com/including-all-submodules-under-a-directory</link>
+				<guid isPermaLink="true">https://terribletester.com/including-all-submodules-under-a-directory</guid>
 			</item>
 		
 			<item>
@@ -86,8 +105,8 @@
 </description>
 				
 				<pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
-				<link>https://terribletester.com/19/07/using-golang-timeticker-for-a-set-duration</link>
-				<guid isPermaLink="true">https://terribletester.com/19/07/using-golang-timeticker-for-a-set-duration</guid>
+				<link>https://terribletester.com/using-golang-timeticker-for-a-set-duration</link>
+				<guid isPermaLink="true">https://terribletester.com/using-golang-timeticker-for-a-set-duration</guid>
 			</item>
 		
 	</channel>

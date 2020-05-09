@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://terribletester.com/19/09/beforeall-and-afterall-workaround-for-cucumber-java</loc>
+        <loc>https://terribletester.com/version-control-dotfiles-using-a-gitbare-repostory</loc>
     </url>
     
     <url>
-        <loc>https://terribletester.com/19/07/including-all-submodules-under-a-directory</loc>
+        <loc>https://terribletester.com/beforeall-and-afterall-workaround-for-cucumber-java</loc>
     </url>
     
     <url>
-        <loc>https://terribletester.com/19/07/using-golang-timeticker-for-a-set-duration</loc>
+        <loc>https://terribletester.com/including-all-submodules-under-a-directory</loc>
+    </url>
+    
+    <url>
+        <loc>https://terribletester.com/using-golang-timeticker-for-a-set-duration</loc>
     </url>
     
 
@@ -30,6 +34,16 @@
     
     <url>
         <loc>https://terribletester.com/archive</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://terribletester.com/categories/</loc>
     </url>
     
     

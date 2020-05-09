@@ -6,7 +6,7 @@ highlighter: rouge
 exclude: [vendor]
 highlighter: rouge
 paginate_path: "/page-:num/"
-permalink: /:short_year/:month/:title
+permalink: /:title
 defaults:
   -
     scope:
@@ -15,7 +15,8 @@ defaults:
     values:
       layout: "post"
       excerpt_separator: "<!--more-->"
-paginate: 100 # it will paginate after this number
+# Number of posts on each page.
+paginate: 20
 language: 'en-uk'
 # language attribute in <html> element.
 lang: en
@@ -81,9 +82,6 @@ date_format: "%b %-d, %Y"
 # Minimal screen-width after which the navigation will change position from
 # vertical to horizontal.
 nav-breaking-point: 520px
-
-# Number of posts on each page.
-paginate: 3
 
 # Display links for the previous and next post on post pages.
 display-next-prev-post: false

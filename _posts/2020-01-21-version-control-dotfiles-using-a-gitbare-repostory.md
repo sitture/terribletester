@@ -1,6 +1,6 @@
 ---
 title: Version control dotfiles using a git bare repository
-categories: [Guide]
+categories: [Git, Guide]
 tags: [git, dotfiles]
 ---
 

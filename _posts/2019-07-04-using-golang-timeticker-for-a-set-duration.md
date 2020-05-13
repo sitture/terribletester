@@ -1,6 +1,7 @@
 ---
 title: Using Golang TimeTicker for a set duration
 categories: [Golang, Guide]
+tags: [howto]
 ---
 
 Problem: As part of me learning and experimenting with golang and working on a small [gauge-reportserver](https://github.com/sitture/gauge-reportserver) plugin, I stumbled across a problem where I had to repeat a task for a certain period.

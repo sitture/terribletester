@@ -1,7 +1,7 @@
 ---
 title: Version control dotfiles using a git bare repository
 categories: [Git, Guide]
-tags: [git, dotfiles]
+tags: [howto, git, dotfiles]
 ---
 
 I keep all of my dotfiles versioned controlled using a git bare repository. There are loads of alternate solutions out there helping you to store your dotfiles under some sort of source control.
@@ -22,7 +22,6 @@ I have found this method the most useful in terms of keeping your dotfiles up-to
 A standard git repository contains 2 working directories `.git/` and `project files` within the project directory itself. On other hand, git `bare` repsitories have no working directories but store the git history files at the root of a project directory.
 
 A standard git repository is created with just running `git init` from inside the project directory and a git bare repository is created with `git init --bare <path/to/project/directory.git>`
-
 
 ## Setting up a dotfiles bare repository
 

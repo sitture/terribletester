@@ -2,6 +2,7 @@
 title: Including all sub-modules under a directory
 summary: There are multiple ways to add sub-modules and it's submodules within the parent settings.gradle.
 categories: [Gradle, Guide]
+tags: [howto]
 ---
 
 There are multiple ways to add sub-modules and it's submodules within the parent `settings.gradle`.

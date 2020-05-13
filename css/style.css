@@ -238,6 +238,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 }
 
+/* Tags */
+
+.post-tags {
+    display: block;
+    padding-top: 1.5rem;
+}
+
 /* Structure */
 
 .wrap {

@@ -15,21 +15,7 @@
 <!-- /icons -->
 {% if page.robots %}<meta name="robots" content="{{page.robots}}" />{% endif %}
 <!-- og tags -->
-<meta property="og:site_name" content="{{ site.title }}" />
-<meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-<meta property="og:locale" content="{{ site.lang }}" />
-{% if page.og-image %}
-  <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/{{ page.og-image }}" />
-{% else %}
-  {% if page.cover-image %}
-    <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/{{ page.cover-image }}" />
-  {% else %}
-    <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/og-image.jpg" />
-  {% endif %}
-{% endif %}
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
-<meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% elsif page.title %}{{}}{{ site.description.meta }}{% endif %}" />
+{% include og.html %}
 <!-- /og tags -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

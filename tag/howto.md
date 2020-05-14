@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: "Tag: howto"
+title: "tag: howto"
 tag: howto
 robots: noindex
 ---

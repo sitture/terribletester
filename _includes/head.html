@@ -1,35 +1,35 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width" />
 <title>{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }} | {{ site.description.meta }}{% endif %}</title>
-<meta name="description" content="{% if page.summary %}{{ page.summary }}{% elsif page.title %}{{ page.title }} | {% endif %}{{ site.description.meta }}">
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}feed.xml">
+<meta name="description" content="{% if page.summary %}{{ page.summary }}{% elsif page.title %}{{ page.title }} | {% endif %}{{ site.description.meta }}" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}feed.xml" />
 <!-- icons -->
-<link rel="apple-touch-icon" href="{{ site.baseurl }}apple-touch-icon.png">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}android-chrome-192x192.png" sizes="192x192">
-<meta name="theme-color" content="{{ site.theme-color-attr }}">
-<meta name="msapplication-TileColor" content="{{ site.ms-tile-color }}">
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}mstile-310x310.png">
+<link rel="apple-touch-icon" href="{{ site.baseurl }}apple-touch-icon.png" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ site.baseurl }}android-chrome-192x192.png" sizes="192x192" />
+<meta name="theme-color" content="{{ site.theme-color-attr }}" />
+<meta name="msapplication-TileColor" content="{{ site.ms-tile-color }}" />
+<meta name="msapplication-TileImage" content="{{ site.baseurl }}mstile-310x310.png" />
 <!-- /icons -->
-
+{% if page.robots %}<meta name="robots" content="{{page.robots}}" />{% endif %}
 <!-- og tags -->
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:locale" content="{{ site.lang }}">
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:locale" content="{{ site.lang }}" />
 {% if page.og-image %}
-  <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/{{ page.og-image }}">
+  <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/{{ page.og-image }}" />
 {% else %}
   {% if page.cover-image %}
-    <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/{{ page.cover-image }}">
+    <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/{{ page.cover-image }}" />
   {% else %}
-    <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/og-image.jpg">
+    <meta property="og:image" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}img/og-image.jpg" />
   {% endif %}
 {% endif %}
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}{{ page.url }}">
-<meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% elsif page.title %}{{}}{{ site.description.meta }}{% endif %}">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}{% if site.baseurl != "/" %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
+<meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% elsif page.title %}{{}}{{ site.description.meta }}{% endif %}" />
 <!-- /og tags -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -41,6 +41,7 @@
 {% if site.display-social-icons %}
 <link rel="stylesheet" href="{{ site.baseurl }}css/font-awesome.css">
 {% endif %}
+
 <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
 <!--[if gte IE 9]>
   <style type="text/css">

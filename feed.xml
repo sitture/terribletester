@@ -7,6 +7,23 @@
 		<atom:link href="https://terribletester.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Publishing to maven central and github packages with github actions</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Haroon Sheikh&quot;, &quot;email&quot;=&gt;&quot;haroon_sheikh@hotmail.co.uk&quot;, &quot;info&quot;=&gt;&quot;(@&lt;a href=\&quot;https://twitter.com/mrhsheikh\&quot;&gt;mrhsheikh&lt;/a&gt;)&quot;}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;I recently decided to move my &lt;a href=&quot;https://circleci.com/&quot;&gt;CircleCI&lt;/a&gt; configuration to &lt;a href=&quot;https://github.com/features/actions&quot;&gt;Github Actions&lt;/a&gt;. There was nothing wrong with my CircleCI setup, I just wouldn’t be a terribletester if I didn’t experiment new tools. There are loads of blogs out there laying out the comparison of both CI platforms. In this particular post, I will show how I’ve switched my CI platform from CircleCI to Github Actions and how I’m now publishing jars to both maven central and &lt;a href=&quot;https://github.com/features/packages&quot;&gt;Github packages&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 25 Jun 2020 11:48:30 +0000</pubDate>
+				<link>https://terribletester.com/publishing-to-maven-central-and-github-packages-with-github-actions</link>
+				<guid isPermaLink="true">https://terribletester.com/publishing-to-maven-central-and-github-packages-with-github-actions</guid>
+			</item>
+		
+			<item>
 				<title>Version control dotfiles using a git bare repository</title>
 				
 					

@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://terribletester.com/publishing-to-maven-central-and-github-packages-with-github-actions</loc>
+    </url>
+    
+    <url>
         <loc>https://terribletester.com/version-control-dotfiles-using-a-gitbare-repostory</loc>
     </url>
     
@@ -73,6 +77,16 @@
     
     
     <url>
+        <loc>https://terribletester.com/tag/continuous-integration</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
         <loc>https://terribletester.com/tag/cucumber</loc>
     </url>
     
@@ -96,6 +110,16 @@
     
     <url>
         <loc>https://terribletester.com/tag/git</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://terribletester.com/tag/golang</loc>
     </url>
     
     

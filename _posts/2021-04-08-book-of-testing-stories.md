@@ -6,11 +6,11 @@ categories: [Testing]
 tags: [testing]
 ---
 
-A brand new ebook of inspring [testing stories](https://leanpub.com/testing_stories/). Software testing professionals from around the globe have volunteered to each share a story related to software testing, with the aim of inspiring others from their experiences.
+A brand new ebook of inspiring [testing stories](https://leanpub.com/testing_stories/). Software testing professionals from around the globe have volunteered to each share a story related to software testing, with the aim of inspiring others from their experiences.
 
 <!--more-->
 
-The initiative was kick started by [Melissa Fisher](https://twitter.com/fishoutthebox) in the original post [Testing Stories EBook](https://fishoutthebox.medium.com/testing-stories-ebook-a389ffd6b54b).  I decided to contribute my side of story in book also by sharing how **Technical knowledge leads to productive testing**. It has been absolutely great experience working so many great minds and collaborating on this book.
+The initiative was kick started by [Melissa Fisher](https://twitter.com/fishoutthebox) in the original post [Testing Stories EBook](https://fishoutthebox.medium.com/testing-stories-ebook-a389ffd6b54b).  I decided to contribute my side of story in book also by sharing how **Technical knowledge leads to productive testing**. It has been an absolutely great experience working with so many great minds and collaborating on this book.
 
 ![Testing Stories]({{ site.baseurl }}img/testingstories.jpeg)
 

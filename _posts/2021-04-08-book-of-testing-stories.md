@@ -12,7 +12,7 @@ A brand new ebook of inspring [testing stories](https://leanpub.com/testing_stor
 
 The initiative was kick started by [Melissa Fisher](https://twitter.com/fishoutthebox) in the original post [Testing Stories EBook](https://fishoutthebox.medium.com/testing-stories-ebook-a389ffd6b54b).  I decided to contribute my side of story in book also by sharing how **Technical knowledge leads to productive testing**. It has been absolutely great experience working so many great minds and collaborating on this book.
 
-![Testing Stories]({{ site.baseurl }}/img/testingstories.jpeg)
+![Testing Stories]({{ site.baseurl }}img/testingstories.jpeg)
 
 The team have decided to donate all royalties sold through leanpub to [Open Sourcing Mental Illness](https://osmihelp.org/) (OSMI), as we collectively value their mission statement and work in mental health in the tech and open source communities.
 

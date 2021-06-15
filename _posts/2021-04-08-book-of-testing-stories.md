@@ -6,7 +6,7 @@ categories: [Testing]
 tags: [testing]
 ---
 
-A brand new ebook of inspring [testing stories](https://leanpub.com/testing_stories/). Software testing professionals from around the globe have volunteered to each share a story related to software testing, with the aim of inspiring others from their experiences.
+A brand new ebook of inspiring [testing stories](https://leanpub.com/testing_stories/). Software testing professionals from around the globe have volunteered to each share a story related to software testing, with the aim of inspiring others from their experiences.
 
 <!--more-->
 

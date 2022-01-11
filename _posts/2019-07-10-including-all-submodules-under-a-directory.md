@@ -2,7 +2,7 @@
 title: Including all sub-modules under a directory
 summary: There are multiple ways to add sub-modules and it's submodules within the parent settings.gradle.
 categories: [Gradle, Guide]
-tags: [howto]
+tags: [howto, gradle]
 ---
 
 There are multiple ways to add sub-modules and it's submodules within the parent `settings.gradle`.
@@ -14,7 +14,7 @@ myproject/
 ├── gradle/
 ├── submodule/
 │   └── submodule1/
-│   └── submodule2/   
+│   └── submodule2/
 ├── build.gradle
 ├── gradle.properties
 ├── gradlew

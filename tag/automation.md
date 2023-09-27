@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: "tag: automation"
+title: "Tag: automation"
 tag: automation
 robots: noindex
 ---

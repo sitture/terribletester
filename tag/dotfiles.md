@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: "tag: dotfiles"
+title: "Tag: dotfiles"
 tag: dotfiles
 robots: noindex
 ---

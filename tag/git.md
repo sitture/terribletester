@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: "tag: git"
+title: "Tag: git"
 tag: git
 robots: noindex
 ---

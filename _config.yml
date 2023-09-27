@@ -34,7 +34,7 @@ author:
   info: (@<a href="https://twitter.com/mrhsheikh">mrhsheikh</a>)
 
 url: https://terribletester.com
-baseurl: "/"
+baseurl:
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 

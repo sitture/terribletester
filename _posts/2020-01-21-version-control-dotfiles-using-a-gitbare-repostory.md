@@ -64,26 +64,27 @@ dotfiles push origin master
 
 Now that we have a dotfiles repository, lets take a look at how we can install this onto a new system.
 
-1. Clone dotfiles into a bare repository in a ".dotfiles" folder of your $HOME directory
+Clone dotfiles into a bare repository in a ".dotfiles" folder of your $HOME directory
 
 ```sh
 git clone --bare git@github.com:username/dotfiles.git $HOME/.dotfiles
 ```
 
-2. Create an alias `dotfiles` to be used instead of `git` for working with the repository
+Create an alias `dotfiles` to be used instead of `git` for working with the repository
 
 ```sh
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
-3. Checkout the content from the bare repository to your $HOME
+Checkout the content from the bare repository to your $HOME
 
 ```sh
 dotfiles checkout
 ```
 
-4. Finally, set the flag `showUntrackedFiles` to no on this specific (local) repository
-```
+Finally, set the flag `showUntrackedFiles` to no on this specific (local) repository
+
+```sh
 dotfiles config --local status.showUntrackedFiles no
 ```
 

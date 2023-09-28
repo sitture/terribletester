@@ -56,9 +56,38 @@ Following is an example of adding your `.vimrc` configuration file to your dotfi
 dotfiles status
 dotfiles add .vimrc
 dotfiles commit -m "Add vimrc"
-dotfiles remote add origin git@github.com:username/repository.git
+dotfiles remote add origin git@github.com:username/dotfiles.git
 dotfiles push origin master
 ```
+
+## Installing dotfiles onto a new system
+
+Now that we have a dotfiles repository, lets take a look at how we can install this onto a new system.
+
+1. Clone dotfiles into a bare repository in a ".dotfiles" folder of your $HOME directory
+
+```sh
+git clone --bare git@github.com:username/dotfiles.git $HOME/.dotfiles
+```
+
+2. Create an alias `dotfiles` to be used instead of `git` for working with the repository
+
+```sh
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+```
+
+3. Checkout the content from the bare repository to your $HOME
+
+```sh
+dotfiles checkout
+```
+
+4. Finally, set the flag `showUntrackedFiles` to no on this specific (local) repository
+```
+dotfiles config --local status.showUntrackedFiles no
+```
+
+You should now have the dotfiles installed onto a new system.
 
 Hopefully, this has helped you understanding how to easily manage and source control your configuration files.
 
